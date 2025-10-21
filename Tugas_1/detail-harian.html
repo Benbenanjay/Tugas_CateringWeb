@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering Harian - Dapur Niola</title>
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background-color: #111; color: #fff; }
+    header { background-color: #ff6f00; text-align: center; padding: 20px; font-size: 1.5em; font-weight: bold; }
+    .back-btn { display: inline-block; margin: 20px; background-color: #ff6f00; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500; transition: 0.3s ease; }
+    .back-btn:hover { background-color: #ffa031; transform: translateY(-2px); }
+    h2 { text-align: center; color: #fff; }
+    p.desc { text-align: center; color: #ccc; margin-bottom: 40px; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px 60px; }
+    .card { background-color: #1a1a1a; border-radius: 10px; overflow: hidden; width: 250px; box-shadow: 0 0 10px rgba(255,255,255,0.1); transition: 0.3s ease; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 0 20px rgba(255,255,255,0.2); }
+    .header { text-align: center; color: #000; font-weight: bold; padding: 15px; }
+    .paket1 { background-color: #ffc75f; } .paket2 { background-color: #ff9671; } .paket3 { background-color: #d65db1; } .paket4 { background-color: #845ec2; }
+    .harga { text-align: center; font-size: 2.5em; margin-top: 20px; }
+    .harga span { font-size: 0.4em; color: #ccc; }
+    ul { list-style: none; padding: 0; margin: 30px 0; text-align: center; color: #ddd; }
+    ul li { border-top: 1px solid #333; padding: 10px 0; font-size: 0.95em; }
+    ul li:last-child { border-bottom: 1px solid #333; }
+    .btn { display: block; width: 80%; margin: 15px auto 25px; padding: 10px 0; border: none; border-radius: 5px; color: #fff; font-weight: bold; cursor: pointer; transition: 0.3s; }
+    .btn:hover { opacity: 0.85; transform: scale(1.03); }
+    .btn1 { background-color: #ffc75f; color: #000; } .btn2 { background-color: #ff9671; } .btn3 { background-color: #d65db1; } .btn4 { background-color: #845ec2; }
+    footer { background-color: #ff6f00; text-align: center; padding: 15px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>Dapur Mamah</header>
+  <a href="index.html" class="back-btn">← Kembali ke Beranda</a>
+  <h2>Catering Harian</h2>
+  <p class="desc">Catering untuk kebutuhan makan harian keluarga, kost, atau kantor dengan menu bergizi seimbang.</p>
+
+  <div class="container">
+    <div class="card">
+      <div class="header paket1">PAKET 1</div>
+      <div class="harga" style="color:#ffc75f;">135rb <span>/per 6 hari</span></div>
+      <ul>
+        <li>1 orang (tanpa nasi)</li><li>Lauk hewani</li><li>Lauk nabati</li><li>Sayur</li><li>Sambal / Dessert</li>
+      </ul>
+      <a href="https://wa.me/6281234567890?text=Pesan+Catering+Harian+Paket+1" target="_blank"><button class="btn btn1">PESAN</button></a>
+    </div>
+    <div class="card">
+      <div class="header paket2">PAKET 2</div>
+      <div class="harga" style="color:#ff9671;">265rb <span>/per 6 hari</span></div>
+      <ul>
+        <li>2-3 orang</li><li>Lauk hewani & nabati</li><li>Sayur</li><li>Sambal / Dessert</li>
+      </ul>
+      <a href="https://wa.me/6281234567890?text=Pesan+Catering+Harian+Paket+2" target="_blank"><button class="btn btn2">PESAN</button></a>
+    </div>
+    <div class="card">
+      <div class="header paket3">PAKET 3</div>
+      <div class="harga" style="color:#d65db1;">390rb <span>/per 6 hari</span></div>
+      <ul>
+        <li>5 orang</li><li>2 lauk hewani</li><li>1 lauk nabati</li><li>Sayur</li><li>Sambal / Dessert</li>
+      </ul>
+      <a href="https://wa.me/6281234567890?text=Pesan+Catering+Harian+Paket+3" target="_blank"><button class="btn btn3">PESAN</button></a>
+    </div>
+  </div>
+  <footer>&copy; 2025 Dapur Niola</footer>
+</body>
+</html>
